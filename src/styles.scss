@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.fdb-block {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    padding: 7.5rem 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #FFFFFF; 
+}
+
+.fdb-block-np {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #FFFFFF; 
+}
+
+.p-primary{
+    color: #635CDB !important;
+}
+.p-primary-dark{
+    color: #574FE8 !important;
+}
+.p-primary-light{
+    color: #9793E6 !important;
+}
+
+.p-bprimary{
+    background: #635CDB !important;
+}
+.p-bprimary-dark{
+    background: #574FE8 !important;
+}
+.p-bprimary-light{
+    background: #9793E6 !important;
+}
+
+.p-secondary{
+    color: #40F99B !important;
+}
+
+.p-small{
+    font-size: 0.88rem !important;
+}
+ .p-shadow{
+    filter: drop-shadow(0px 10px 10px #635CDB26) !important;
+ }
+
+ .p-round{
+     border-radius: 1.0rem !important;
+ }
+
+ .pb-round{
+    border-radius: 0rem 0rem 1.5rem 1.5rem !important;
+ }
