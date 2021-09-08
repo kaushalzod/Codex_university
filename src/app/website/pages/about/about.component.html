@@ -1,1 +1,146 @@
-<p>about works!</p>
+<app-navbar></app-navbar>
+
+<section class="fdb-block-np" style="background-image: url(assets/Images/about/hero_bg.png);">
+    <div class="container">
+        <div class="row align-items-center mt-5">
+            <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+                <h1 class="p-primary-dark fw-bold heading_1">Althash</h1>
+                <h6 class="fw-bold text-decoration-underline">Powered by HTML Coin</h6>
+                <p class="p_big_200">A Blockchain supporting CODEX and many other platforms like it.</p>
+                <p class="p_big_180">AltHash a Blockchain as a Service (BaaS) company focused on providing decentralized
+                    ledger and blockchain solutions to governments and large institutions throughout the world.</p>
+            </div>
+            <div class="col-12 col-md-6 m-auto col-lg-6">
+                <img alt="image" class="img-fluid" src="assets/Images/about/hero_img.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block-np" style="background-image: url(assets/Images/about/2_bg.png);">
+    <div class="container py-5">
+        <p class="heading_3 mb-4 col-9">Althash is a Proof-of-Work/Proof-of-Stake hybrid blockchain with fast and
+            secure transactions hybrid of Bitcoin and Ethereum technologies.</p>
+
+        <div class="row mb-5">
+            <div class="col-sm-6 bg-transparent p-round p-shadow">
+                <div class="row">
+                    <div class="col-4 p-0">
+                        <img alt="image" class="img-fluid p-round" src="assets/Images/about/icon1.png">
+                    </div>
+                    <div class="col-8 px-4 align-self-center">
+                        <h5 class="heading_4 p-primary-dark">Security of Bitcoin</h5>
+                        <p class="p_big_180 text-muted">Leveraging the security of the UTXO protocol with additional
+                            abstraction layers that provide further speed, additional security</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  bg-transparent p-round p-shadow">
+                <div class="row">
+                    <div class="col-4 p-0">
+                        <img alt="image" class="img-fluid p-round" src="assets/Images/about/icon2.png">
+                    </div>
+                    <div class="col-8 px-4 align-self-center">
+                        <h5 class="heading_4 p-primary-dark">Flexibility of Ethereum</h5>
+                        <p class="p_big_180 text-muted ">Blockchain with the flexibility of Virtual Machines with
+                            additional abstraction layers that provide further speed and functionality to the network.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="heading_3 mt-5 mb-4 col-9">Some heading describing the community of the Althash.</p>
+            <div class="col-sm-6  bg-transparent p-round p-shadow">
+                <div class="row">
+                    <div class="col-4 p-0">
+                        <img alt="image" class="img-fluid p-round" src="assets/Images/about/icon3.png">
+                    </div>
+                    <div class="col-8 px-4 align-self-center">
+                        <h5 class="heading_4 p-primary-dark">7+ Years of Experience.</h5>
+                        <p class="p_big_180 text-muted">Content that suuports the above heading</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6  bg-transparent p-round p-shadow">
+                <div class="row">
+                    <div class="col-4 p-0">
+                        <img alt="image" class="img-fluid p-round" src="assets/Images/about/icon4.png">
+                    </div>
+                    <div class="col-8 px-4 align-self-center">
+                        <h5 class="heading_4 p-primary-dark">True worldwide team. </h5>
+                        <p class="p_big_180 text-muted">Skilled professionals from six continents and some more related
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fdb-block-np p-round" style="background-image: url(assets/Images/about/sec2_bg.png);">
+            <div class="row">
+                <div class="col-5">
+                    <img src="assets/Images/about/sec2_img.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-7 align-self-center px-5">
+                    <p class="heading_2 p-primary-light">Fueled by HTMLCOIN</p>
+                    <p class="p_big_200 text-white">The cryptocurrency that powers the network, the Althash blockchain
+                        is able to provide a fast, efficient and reliable platform for secure and easy to use
+                        applications for institutions, businesses and individuals.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block-np" style="background-image: url(assets/Images/about/sec3_bg.png);">
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-4 align-items-center text-center">
+                <img src="assets/Images/about/sec2_icon1.png" width="30%" alt="">
+                <p class="heading_1">17500</p>
+                <p class="heading_5">Activity Hours</p>
+            </div>
+            <div class="col-4 align-items-center text-center">
+                <img src="assets/Images/about/sec2_icon2.png" width="30%" alt="">
+                <p class="heading_1">420</p>
+                <p class="heading_5">Token Created <br> on Althash</p>
+            </div>
+            <div class="col-4 align-items-center text-center">
+                <img src="assets/Images/about/sec2_icon3.png" width="30%" alt="">
+                <p class="heading_1">12</p>
+                <p class="heading_5">Active Apps</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fdb-block-np " style="background-image: url(assets/Images/about/sec3_bg.png);">
+    <div class="container pf-footer">
+        <p class="heading_2">Community tokens made on Althash</p>
+        <p class="subheading_small">Our AltHash community have made many great tokens including CODEX own CDEX tokens.
+            Explore the tokens.</p>
+
+        <div class="row">
+            <div class="col-md-4 mb-4 card-size" *ngFor="let item of token">
+                <div class="p-round bg-white p-3">
+                    <div class="bg-white">
+                        <img src="{{item.img}}" class="card-img-top rounded-3 mb-3" alt="">
+                    </div>
+                    <div class="heading_3 mb-2">{{item.title}}</div>
+                    <p class="p_normal content-size">
+                        {{item.subtitle}}
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/Images/about/icon5.svg" alt="" srcset="">
+                            <img src="assets/Images/about/icon6.svg" alt="" class="ms-3" srcset="">
+                        </div>
+                        <div class="col-6 text-end">
+                            <button class="btn btn-dark">Visit Website</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>
