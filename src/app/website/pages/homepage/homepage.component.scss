@@ -26,6 +26,11 @@
     background-color: transparent !important;
 }
 
+.notselected{
+    filter: brightness(0) opacity(0.48);
+}
+
+
 .home_title{
     font-family: 'Plus Jakarta Display' !important;
     font-style: normal !important;

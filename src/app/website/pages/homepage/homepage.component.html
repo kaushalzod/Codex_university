@@ -193,16 +193,19 @@
         </div>
         <div class="row text-center mt-3 justify-content-center">
             <div class="col-md-4 my-3 ">
-                <button class="btn btn-light p-round fw-bold p-shadow px-4" (click)="changeSlide(1)"><img
-                        src="assets/Images/home/code.svg" class="" alt="" width="53px" srcset=""> Codex Workplace </button>
+                <button class="btn btn-light p-round fw-bold  p-shadow px-4" (click)="changeSlide(1)" 
+                [ngClass]="{'p-primary-dark': slide==1,'text-muted': slide!=1}"><img
+                        src="assets/Images/home/code.svg" [class.notselected]="slide!=1" class="" alt="" width="53px" srcset=""> Codex Workplace </button>
             </div>
             <div class="col-md-4 my-3">
-                <button class="btn btn-light p-round fw-bold p-shadow px-4" (click)="changeSlide(2)"><img
-                        src="assets/Images/home/hrc20.svg" class="" alt="" width="53px" srcset="">HRC 20 CodexWallet Bot</button>
+                <button class="btn btn-light p-round fw-bold p-primary-dark p-shadow px-4" (click)="changeSlide(2)"
+                [ngClass]="{'p-primary-dark': slide==2,'text-muted': slide!=2}"><img
+                        src="assets/Images/home/hrc20.svg" [class.notselected]="slide!=2" alt="" width="53px" srcset="">HRC 20 CodexWallet Bot</button>
             </div>
             <div class="col-md-4 my-3">
-                <button class="btn btn-light p-round fw-bold p-shadow px-4" (click)="changeSlide(3)"><img
-                        src="assets/Images/home/university.svg" class="" alt="" width="53px" srcset="">Althash University</button>
+                <button class="btn btn-light p-round fw-bold p-primary-dark p-shadow px-4" (click)="changeSlide(3)"
+                [ngClass]="{'p-primary-dark': slide==3,'text-muted': slide!=3}"><img
+                        src="assets/Images/home/university.svg" [class.notselected]="slide!=3" alt="" width="53px" srcset="">Althash University</button>
             </div>
         </div>
 
