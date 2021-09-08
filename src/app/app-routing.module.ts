@@ -2,6 +2,7 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './website/pages/about/about.component';
 import { AlthashUniversityComponent } from './website/pages/althash-university/althash-university.component';
+import { CommonPageLayoutComponent } from './website/pages/common-page-layout/common-page-layout.component';
 import { HomepageComponent } from './website/pages/homepage/homepage.component';
 import { NewsComponent } from './website/pages/news/news.component';
 import { WalletBotComponent } from './website/pages/wallet-bot/wallet-bot.component';
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path:'about',
     component:AboutComponent
+  },
+  {
+    path:'privacy-policy',
+    component:CommonPageLayoutComponent
   },
 ];
 
